@@ -53,7 +53,7 @@
                     <navigationItem key="navigationItem" id="AmE-2q-eaF"/>
                     <connections>
                         <outlet property="myLabel1st" destination="Ig9-Yt-Mon" id="Xve-Tx-lvO"/>
-                        <outlet property="nameText" destination="xHr-3K-TFq" id="EGV-OW-ElN"/>
+                        <outlet property="nameText" destination="xHr-3K-TFq" id="xOc-Uz-o60"/>
                         <segue destination="TQb-ob-ptc" kind="show" identifier="toSecondVC" id="m9C-5t-uLs"/>
                     </connections>
                 </viewController>

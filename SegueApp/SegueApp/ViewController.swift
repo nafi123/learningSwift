@@ -11,6 +11,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var myLabel1st: UILabel!
     @IBOutlet weak var nameText: UITextField!
     
+    
     var userName = ""
     override func viewDidLoad() {
         super.viewDidLoad()
