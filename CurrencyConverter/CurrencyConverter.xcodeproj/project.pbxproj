@@ -41,6 +41,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A442A7472666E1550008898F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A442A7482666E15C0008898F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4B21D1E265BCACA00838D90 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A442A7492666E1640008898F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4B21D1C265BCACA00838D90 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A442A74A2666E1710008898F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A4B21D18265BCACA00838D90 /* AppDelegate.swift */,
+				A4B21D1A265BCACA00838D90 /* SceneDelegate.swift */,
+				A4B21D24265BCACC00838D90 /* Assets.xcassets */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		A4B21D0C265BCACA00838D90 = {
 			isa = PBXGroup;
 			children = (
@@ -60,12 +93,11 @@
 		A4B21D17265BCACA00838D90 /* CurrencyConverter */ = {
 			isa = PBXGroup;
 			children = (
+				A442A74A2666E1710008898F /* Core */,
+				A442A7492666E1640008898F /* Controller */,
+				A442A7482666E15C0008898F /* View */,
+				A442A7472666E1550008898F /* Model */,
 				A4D1AEB9265D86DB00954E77 /* Constant */,
-				A4B21D18265BCACA00838D90 /* AppDelegate.swift */,
-				A4B21D1A265BCACA00838D90 /* SceneDelegate.swift */,
-				A4B21D1C265BCACA00838D90 /* ViewController.swift */,
-				A4B21D1E265BCACA00838D90 /* Main.storyboard */,
-				A4B21D24265BCACC00838D90 /* Assets.xcassets */,
 				A4B21D26265BCACC00838D90 /* LaunchScreen.storyboard */,
 				A4B21D29265BCACC00838D90 /* Info.plist */,
 				A4B21D21265BCACA00838D90 /* CurrencyConverter.xcdatamodeld */,
