@@ -1,0 +1,6 @@
+framework module Pods_MessengerRealTime {
+  umbrella header "Pods-MessengerRealTime-umbrella.h"
+
+  export *
+  module * { export * }
+}
